@@ -661,7 +661,7 @@ upgradeCheck:
 certmanager-issuer:
 #   # The email address to register certificates requested from Let's Encrypt.
 #   # Required if using Let's Encrypt.
-  email: niraj.vishwakarma@neosoftmail.com
+  email: manali.rahate@neosoftmail.com
 
 ## Installation & configuration of jetstack/cert-manager
 ## See requirements.yaml for current version
