@@ -40,7 +40,7 @@ global:
 
   ## https://docs.gitlab.com/charts/charts/globals#configure-ingress-settings
   ingress:
-    configureCertmanager: false
+    configureCertmanager: true
     provider: nginx
     class: nginx
     annotations: 
