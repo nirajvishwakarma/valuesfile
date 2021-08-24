@@ -40,7 +40,7 @@ global:
 
   ## https://docs.gitlab.com/charts/charts/globals#configure-ingress-settings
   ingress:
-    configureCertmanager: false
+    configureCertmanager: true
     provider: nginx
     class: nginx
     annotations: 
@@ -658,10 +658,10 @@ upgradeCheck:
       cpu: 50m
 
 ## Settings to for the Let's Encrypt ACME Issuer
-# certmanager-issuer:
+certmanager-issuer:
 #   # The email address to register certificates requested from Let's Encrypt.
 #   # Required if using Let's Encrypt.
-#   email: email@example.com
+  email: niraj.vishwakarma@neosoftmail.com
 
 ## Installation & configuration of jetstack/cert-manager
 ## See requirements.yaml for current version
